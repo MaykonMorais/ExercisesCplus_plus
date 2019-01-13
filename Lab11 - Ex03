@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+	string nome, data;
+	
+	cout << "Digite seu nome completo: ";
+	getline(cin, nome);
+	cout << "Digite sua data de nascimento [DD/MM/AA]: ";
+	getline(cin, data);
+	string dataConc = data.substr(0, 2) + "/" + data.substr(2,2) + "/" +data.substr(4,4);
+
+	//string dataConc = 
+	cout << "Nome: " << nome.substr(0, nome.find(' ')) << endl;
+	cout << "Data: " << dataConc << endl;
+	cout << nome.substr(0, nome.find(' ')) << " Esteve aqui em " << dataConc << endl;
+	system("pause");
+	return 0;
+}
