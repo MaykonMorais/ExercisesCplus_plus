@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+	string data, data1, data2, natal = "Natal";
+
+	cout << "Quais suas datas comemorativas preferidas?" << endl;
+	getline(cin, data);
+	getline(cin, data1);
+	getline(cin, data2);
+	
+	data[0] = toupper(data[0]);
+	data1[0] = toupper(data1[0]);
+	data2[0] = toupper(data2[0]);
+
+	cout << data << " , " << data1 << " e " << data2 << " sao belas festas.\n";
+	
+	if ((data == natal) || (data1 == natal) || (data2 == natal)) {
+		cout << "O natal tambem e umas das minhas datas preferidas!\n";
+	}
+
+	system("pause");
+	return 0;
+}
+
