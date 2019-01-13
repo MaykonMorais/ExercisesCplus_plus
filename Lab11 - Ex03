@@ -15,6 +15,7 @@ int main() {
 	cout << "Nome: " << nome.substr(0, nome.find(' ')) << endl;
 	cout << "Data: " << dataConc << endl;
 	cout << nome.substr(0, nome.find(' ')) << " Esteve aqui em " << dataConc << endl;
+	
 	system("pause");
 	return 0;
 }
