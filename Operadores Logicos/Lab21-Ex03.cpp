@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
 
-/* Crie um programa que recebe um número inteiro maior que zero e determina se
-ele é um número primo ou não.*/
-
+/*
+Se listarmos todos os números naturais menores que 10 que são múltiplos de 3 ou
+5, nós teremos 3, 5, 6 e 9. A soma destes múltiplos é 23. Encontre a soma de todos
+os múltiplos de 3 ou 5 menores que 1000. 
+*/
 int main() {
 	int a, b;
 	cin >> a >> b;
