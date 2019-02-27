@@ -5,6 +5,7 @@ struct produto {
 	double preco;
 	int codigo;
 };
+// CODIGO DO PRODUTO USANDO SWITCH E REPETIÇÃO
 int main() {
 	produto x;
 	cout << "Digite o preco do produto: R$ ";

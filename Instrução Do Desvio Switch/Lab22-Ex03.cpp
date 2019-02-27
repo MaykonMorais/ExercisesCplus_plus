@@ -1,14 +1,17 @@
 #include <iostream>
+
 // PREÇOS
 const double MACARRONADA = 2.5;
 const double FEIJOADA = 5.75;
 const double SALADA = 3.5;
+
 
 struct prato {
 	char nome[30];
 	double preco;
 };
 using namespace std;
+// ESCOLHA DO PRATO POR MEIO DE SWITCH E REPETICAO
 int main() {
 	double soma = 0;
 	prato cardapio[3] = {

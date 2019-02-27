@@ -2,6 +2,7 @@
 #include <cctype>
 using namespace std;
 
+// CONTADOR DE VOGAIIS
 int main() {
 	char ch;
 	int vet[5] = {0}; // vetor contador de vogais
