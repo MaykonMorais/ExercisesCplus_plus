@@ -15,7 +15,7 @@ int main() {
 			soma += i;
 		}
 		cout << "A soma entre " << num1 << " e " << num2 << ": " << soma << endl;
-	}
+	}   
 	else if (num2 < num1) {
 		for (int i = num2 + 1; i < num1; i++) {
 			soma += i;
